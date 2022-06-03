@@ -50,10 +50,10 @@ MonoBehaviour:
   runInBackground: 1
   autoStartServerBuild: 1
   serverTickRate: 30
-  offlineScene: Assets/Scenes/Menu.unity
-  onlineScene: Assets/Scenes/MyScene.unity
+  offlineScene: Assets/Scenes/0 Menu.unity
+  onlineScene: Assets/Scenes/2 MyScene.unity
   transport: {fileID: 3053605053692127142}
-  networkAddress: 70.178.90.36
+  networkAddress: localhost
   maxConnections: 4
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 6801627802665451220, guid: 1224dfcca792b1948ad539fb892e832b, type: 3}

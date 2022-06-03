@@ -7,7 +7,7 @@ namespace QuickStart
     {
         public void LoadScene()
         {
-            SceneManager.LoadScene("GamesList");
+            SceneManager.LoadScene("1 GamesList");
         }
     }
 }

@@ -7,17 +7,17 @@ namespace QuickStart
     {
         public void LoadMenu()
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("0 Menu");
         }
 
         public void LoadMyScene()
         {
-            SceneManager.LoadScene("MyScene");
+            SceneManager.LoadScene("2 MyScene");
         }
 
         public void LoadMyOtherScene()
         {
-            SceneManager.LoadScene("MyOtherScene");
+            SceneManager.LoadScene("3 MyOtherScene");
         }
     }
 }

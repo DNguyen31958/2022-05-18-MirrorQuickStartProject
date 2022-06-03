@@ -32,10 +32,10 @@ namespace QuickStart
             if (isServer)
             {
                 Scene scene = SceneManager.GetActiveScene();
-                if (scene.name == "MyScene")
-                    NetworkManager.singleton.ServerChangeScene("MyOtherScene");
+                if (scene.name == "2 MyScene")
+                    NetworkManager.singleton.ServerChangeScene("3 MyOtherScene");
                 else
-                    NetworkManager.singleton.ServerChangeScene("MyScene");
+                    NetworkManager.singleton.ServerChangeScene("2 MyScene");
             }
             else
                 Debug.Log("You are not Host.");
